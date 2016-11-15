@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>全部医生</title>
+    <link rel="stylesheet" href="../css/mui.min.css"/>
+    <link rel="stylesheet" href="../font/iconfont.css"/>
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/page_zh.css"/>
+    <script type="text/javascript" src="../font/iconfont.js"></script>
+   
+</head>
+<body>
+	<!--底部tab-->
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item" href="#tabbar_fx">
+			<span class="mui-tab-label">发现</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar_wt">
+			<span class="mui-tab-label">问题</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar_my">
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	<!--内容区-->
+	<div class="mui-content mheight">
+		<div class="mui-content-padded clearfix">
+			<h5 class="fl font_blue f16">全部医生</h5> 
+			<a class="fr zh_tag mt3" href="javascript:void(0);">按科室查找</a>
+		</div>
+		<!--医生列表-->
+		<ul class="mui-table-view mui-table-view-chevron">
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right">
+					<div class="mui-row zh_row clearfix">
+						<div class="mui-col-sm-2">
+        					<div class="zh_doc">
+        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+	        					<svg class="icon icon-V zh_v" aria-hidden="true">
+								  	<use xlink:href="#icon-V"></use>
+								</svg>
+        					</div>
+        				</div>
+        				<div class="mui-col-sm-7 mui-col-xs-6">
+        					<p class="mt5">
+        						<span class="f16 font_black">陆斌</span>
+        						<span class="ml5">副主任医师</span>
+        					</p>
+        					<p class="mui-ellipsis f12 mt5">
+        						<span class="mr5">口腔科</span>
+        						<span>秦都口腔医院</span>
+        					</p>
+        				</div>
+        				<div class="fr zh_hfnum">
+        					<p class="mui-ellipsis">
+        						<span class="font_gray mr5">&yen;</span><span class="font_red">20</span>
+        					</p>
+        					<p class="f10 mui-ellipsis">
+        						已回复<br><span>12414</span>
+        					</p>
+        				</div>
+        			</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right">
+					<div class="mui-row zh_row clearfix">
+						<div class="mui-col-sm-2">
+        					<div class="zh_doc">
+        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+	        					<svg class="icon icon-V zh_v" aria-hidden="true">
+								  	<use xlink:href="#icon-V"></use>
+								</svg>
+        					</div>
+        				</div>
+        				<div class="mui-col-sm-7 mui-col-xs-6">
+        					<p class="mt5">
+        						<span class="f16 font_black">大陆</span>
+        						<span class="ml5">副主任医师</span>
+        					</p>
+        					<p class="mui-ellipsis f12 mt5">
+        						<span class="mr5">放射科</span>
+        						<span>秦都口腔医院</span>
+        					</p>
+        				</div>
+        				<div class="fr zh_hfnum">
+        					<p class="mui-ellipsis">
+        						<span class="font_gray mr5">&yen;</span><span class="font_red">20</span>
+        					</p>
+        					<p class="f10 mui-ellipsis">
+        						已回复<br><span>124</span>
+        					</p>
+        				</div>
+        			</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right">
+					<div class="mui-row zh_row clearfix">
+						<div class="mui-col-sm-2">
+        					<div class="zh_doc">
+        						<img class="doc_photo" src="../img/photo.png" alt="医生">
+        					</div>
+        				</div>
+        				<div class="mui-col-sm-7 mui-col-xs-6">
+        					<p class="mt5">
+        						<span class="f16 font_black">张明</span>
+        						<span class="ml5">副主任医师</span>
+        					</p>
+        					<p class="mui-ellipsis f12 mt5">
+        						<span class="mr5">精神科</span>
+        						<span>秦都口腔医院</span>
+        					</p>
+        				</div>
+        				<div class="fr zh_hfnum">
+        					<p class="mui-ellipsis">
+        						<span class="font_gray mr5">&yen;</span><span class="font_red">20</span>
+        					</p>
+        					<p class="f10 mui-ellipsis">
+        						已回复<br><span>122</span>
+        					</p>
+        				</div>
+        			</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a class="mui-navigate-right">
+					<div class="mui-row zh_row clearfix">
+						<div class="mui-col-sm-2">
+        					<div class="zh_doc">
+        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+        					</div>
+        				</div>
+        				<div class="mui-col-sm-7 mui-col-xs-6">
+        					<p class="mt5">
+        						<span class="f16 font_black">王林</span>
+        						<span class="ml5">副主任医师</span>
+        					</p>
+        					<p class="mui-ellipsis f12 mt5">
+        						<span class="mr5">内科</span>
+        						<span>秦都口腔医院</span>
+        					</p>
+        				</div>
+        				<div class="fr zh_hfnum">
+        					<p class="mui-ellipsis">
+        						<span class="font_gray mr5">&yen;</span><span class="font_red">20</span>
+        					</p>
+        					<p class="f10 mui-ellipsis">
+        						已回复<br><span>100</span>
+        					</p>
+        				</div>
+        			</div>
+				</a>
+			</li>
+		</ul>
+		<!--底部加载更多-->
+		<div class="load_more">
+			<a class="font_gray" href="javascript:void(0);">点击加载更多</a>
+		</div>
+	</div>
+	
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+    	function setH(){
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+			mheight[0].style.minHeight=vheight+"px";
+		}
+		window.onload=function(){
+			setH();
+		}
+		
+      	mui.init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>名医答主页</title>
+    <link rel="stylesheet" href="../font/iconfont.css" />
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/common.css" rel="stylesheet"/>
+    <link href="../css/page_ln.css" rel="stylesheet"/>
+    <script type="text/javascript" src="../font/iconfont.js"></script>
+</head>
+<body>
+	
+	<!--底部tab-->
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item" href="#tabbar_fx">
+			<span class="mui-tab-label">发现</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar_wt">
+			<span class="mui-tab-label">问题</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar_my">
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	
+	<!--内容区-->
+	<div class="mui-content mheight">
+		<div class="mui-content-padded">
+			<!--搜索-->
+			<div class="mui-input-row mui-search">
+				<input type="search" class="mui-input-clear" placeholder="搜索">
+			</div>
+		</div>
+	    <div class="mui-row pl10 pr10">
+	        <ul class="ln_hlist mui-col-sm-4 mui-col-xs-4">
+	            <li class="mui-table-view-cell">
+	                <a class="tc" href="javascript:viod(0);" style="white-space: normal;">
+	                    <svg class="icon icon-doc_zxfz" aria-hidden="true">
+				            <use xlink:href="#icon-doc_zxfz"></use>
+				        </svg>  
+				        <h4>在线分诊</h4>
+				        <p>不知道如何就医？分诊助手来帮你</p>
+	                </a>
+	            </li>
+	        </ul>
+	        <ul class="ln_hlist mui-col-sm-4 mui-col-xs-4">
+	            <li class="mui-table-view-cell">
+	                <a class="tc" href="javascript:viod(0);" style="white-space: normal;">
+	                    <svg class="icon icon-doc_search" aria-hidden="true">
+				            <use xlink:href="#icon-doc_search"></use>
+				        </svg>  
+				        <h4>找医生</h4>
+				        <p>全国十万三甲名医-对症咨询</p>
+	                </a>
+	            </li>
+	        </ul>
+	        <ul class="ln_hlist mui-col-sm-4 mui-col-xs-4">
+	            <li class="mui-table-view-cell">
+	                <a class="tc" href="javascript:viod(0);" style="white-space: normal;">
+	                    <svg class="icon icon-doc_qkzx" aria-hidden="true">
+				            <use xlink:href="#icon-doc_qkzx"></use>
+				        </svg>  
+				        <h4>全科咨询</h4>
+				        <p>全科医师服务-小病不用愁</p>
+	                </a>
+	            </li>
+	        </ul>
+	    </div>
+	    <!--健康乐微课堂-->
+	    <div class="ln_weikt">
+	    	<a class="display_b pr pr10 clearfix" href="javascript:viod(0);">
+	    		<span class="ln_jklbt">健康乐微课堂</span>
+	    		<span class="fl mt3 font_gray">免费听大咖讲课，去看看有没有适合你的大咖</span>
+	    		<svg class="pa icon icon-go" aria-hidden="true" style="top: 5px;right: 0px;">
+				    <use xlink:href="#icon-go"></use>
+				</svg>
+	    	</a>
+	    	<a href="javascript:viod(0);">
+	    		<img class="pw100 pmt3" src="../img/banner.png"/>
+	    	</a>
+	    </div>
+	    <!--专家在线-->
+	    <div class="ln_weikt pmt4">
+	    	<a class="display_b pr pr10 clearfix" href="javascript:viod(0);">
+	    		<span class="ln_jklbt">名医在线</span>
+	    		<span class="fl mt3 font_gray">专家在线，即时互动</span>
+	    		<svg class="pa icon icon-go" aria-hidden="true" style="top: 5px;right: 0px;">
+				    <use xlink:href="#icon-go"></use>
+				</svg>
+	    	</a>
+	    	<a href="javascript:viod(0);">
+	    		<img class="pw100 pmt3" src="../img/fam_doc2.png"/>
+	    	</a>
+	    	<a href="javascript:viod(0);">
+	    		<img class="pw100 pmt3" src="../img/fam_doc1.png"/>
+	    	</a>
+	    </div>
+	    <!--新人榜-->
+	    <div class="ln_doclist">
+	    	<a class="display_b pr10 clearfix" href="javascript:viod(0);">
+	    		<span class="ln_jklbt">新人榜</span>
+	    		<span class="fr pmt1 font_gray">更多
+	    		<svg class="icon icon-go" aria-hidden="true">
+				    <use xlink:href="#icon-go"></use>
+				</svg>
+				</span>
+	    	</a>
+	    	<div class="mui-row">
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		<svg class="icon icon-V pa f16" aria-hidden="true">
+							        <use xlink:href="#icon-V"></use>
+							    </svg>
+		                    </div>
+		                    <div class="fl ml5 ln_bwidth">
+			                   	<p class="f14 font_black">赵成成</p>
+			                   	<p class="f12 mui-ellipsis">妇产科妇产科妇产科妇产科妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		<svg class="icon icon-V pa f16" aria-hidden="true">
+							        <use xlink:href="#icon-V"></use>
+							    </svg>
+		                    </div>
+		                    <div class="fl ml5 ln_bwidth">
+			                   	<p class="f14 font_black">郑晨</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		
+		                    </div>
+		                    <div class="fl ml5 pmt2 ln_bwidth">
+			                   	<p class="f14 font_black">张启</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		    </div>
+	    </div>
+	    <!--人气榜-->
+	    <div class="ln_doclist">
+	    	<a class="display_b pr10 clearfix" href="javascript:viod(0);">
+	    		<span class="ln_jklbt">人气榜</span>
+	    		<span class="fr pmt1 font_gray">更多
+	    		<svg class="icon icon-go" aria-hidden="true">
+				    <use xlink:href="#icon-go"></use>
+				</svg>
+				</span>
+	    	</a>
+	    	<div class="mui-row">
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		<svg class="icon icon-V pa f16" aria-hidden="true">
+							        <use xlink:href="#icon-V"></use>
+							    </svg>
+		                    </div>
+		                    <div class="fl ml5 pmt2 ln_bwidth">
+			                   	<p class="f14 font_black">赵成</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		<svg class="icon icon-V pa f16" aria-hidden="true">
+							        <use xlink:href="#icon-V"></use>
+							    </svg>
+		                    </div>
+		                    <div class="fl ml5 pmt2 ln_bwidth">
+			                   	<p class="f14 font_black">郑晨</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		
+		                    </div>
+		                    <div class="fl ml5 pmt2 ln_bwidth">
+			                   	<p class="f14 font_black">张启</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		    </div>
+	    </div>
+	    <!--服务榜-->
+	    <div class="ln_doclist pmb5">
+	    	<a class="display_b pr10 clearfix" href="javascript:viod(0);">
+	    		<span class="ln_jklbt">服务榜</span>
+	    		<span class="fr pmt1 font_gray">更多
+	    		<svg class="icon icon-go" aria-hidden="true">
+				    <use xlink:href="#icon-go"></use>
+				</svg>
+				</span>
+	    	</a>
+	    	<div class="mui-row">
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		
+		                    </div>
+		                    <div class="fl ml5 pmt2 ln_bwidth">
+			                   	<p class="f14 font_black">赵成</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		<svg class="icon icon-V pa f16" aria-hidden="true">
+							        <use xlink:href="#icon-V"></use>
+							    </svg>
+		                    </div>
+		                    <div class="fl ml5 pmt2 ln_bwidth">
+			                   	<p class="f14 font_black">郑晨</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		        <ul class="ln_xrlist mui-col-sm-4 mui-col-xs-4">
+		            <li class="mui-table-view-cell">
+		                <a href="javascript:viod(0);">
+		                    <div class="ln_docpic pr fl">
+		                   		<img src="../img/doc.png"/>
+		                   		<svg class="icon icon-V pa f16" aria-hidden="true">
+							        <use xlink:href="#icon-V"></use>
+							    </svg>
+		                    </div>
+		                    <div class="fl ml5 pmt2 ln_bwidth">
+			                   	<p class="f14 font_black">张启</p>
+			                   	<p class="f12 mui-ellipsis">妇产科</p>
+		                    </div>
+		                </a>
+		            </li>
+		        </ul>
+		    </div>
+	    </div>
+	</div>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+    	function setH(){
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+			mheight[0].style.minHeight=vheight+"px";
+		}
+		window.onload=function(){
+			setH();
+		}
+		
+      	mui.init();
+    </script>
+</body>
+</html>

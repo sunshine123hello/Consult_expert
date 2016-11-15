@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>咨询</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/page_ln.css">
+		<link rel="stylesheet" href="../font/iconfont.css" />
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="../font/iconfont.js"></script>
+   		
+	</head>
+	<body>
+		<!--底部-->
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wd">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div class="mui-content mheight">
+			<ul class="pmt5 mui-table-view mui-table-view-chevron">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<div class="fl mr10">
+							<img class="doc_img" src="../img/doc.png" alt="医生">
+						</div>
+						<div class="fl">
+							<div class="mt5 clearfix">
+								<span class="font_blue f16 fb ml10 fl">陆斌
+									<svg class="icon icon-V ml5" aria-hidden="true">
+							            <use xlink:href="#icon-V"></use>
+							       </svg>
+						        </span>
+								<span class="font_black ml10 fl pmt2">副主任医师</span>
+							</div>
+							<p class="font_gray ml10 mt10">口腔科<span class="ml10">秦都口腔医院</span></p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<p class="font_blue ml10 pmt4">向陆斌医生提问（症状、部位、持续时间）</p>
+			<div class="ln_zixun">
+				<div class="mui-input-row">
+					<textarea id="textarea" rows="5" placeholder="" style="border: 1px solid #4FA0DE;"></textarea>
+				</div>
+				<div class="pmb4">
+					<a href="#picture" class="ln_shangc vm mui-btn-primary mui-btn-outlined">
+						<svg class="icon icon-shangchuan" aria-hidden="true">
+			                <use xlink:href="#icon-shangchuan"></use>
+			           </svg>
+					</a>
+					<div class="pr display_i">
+						<a href="javascript:viod(0);"><img class="ln_borblue" src="../img/doc.png" width="40" height="40"/></a>
+						<a class="ln_deletetp" href="javascript:viod(0);">
+							<svg class="icon icon-del_img" aria-hidden="true">
+				                <use xlink:href="#icon-del_img"></use>
+				            </svg>
+						</a>
+					</div>
+					<span class="font_gray f14">最多上传5张照片</span>
+				</div>
+				<!--上传图片弹出框-->
+				<div id="picture" class="mui-popover mui-popover-action mui-popover-bottom" style="width: 92%;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell font_black">
+							<a "javascript:viod(0);">拍照</a>
+						</li>
+						<li class="mui-table-view-cell font_black">
+							<a "javascript:viod(0);">相册</a>
+						</li>
+					</ul>
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell font_black">
+							<a href="#picture"><b>取消</b></a>
+						</li>
+					</ul>
+				</div>
+				<ul class="mui-table-view">
+					<!--当开启匿名提问时，显示此部分-->
+					<li class="f16 mui-table-view-cell">
+							匿名提问
+						<div class="mui-switch mui-switch-blue mui-switch-mini mui-active">
+							<div class="mui-switch-handle"></div>
+						</div>
+					</li>
+					<!--当关闭匿名提问时，显示此部分-->
+					<li class="mui-table-view-cell">
+						<span class="f16">公开提问</span>
+						<p class="f12">其他人的付费查看收入一半归您</p>
+						<div class="mui-switch mui-switch-blue mui-switch-mini">
+							<div class="mui-switch-handle"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<p class="font_blue pml4 pmt4">本次咨询，需要向医生支付<span class="font_red">20</span>元</p>
+			<div class="ln_pay clearfix">
+				<span class="fl mt10">应付款
+					<span class="font_red ml5 mt10"><span class="font_gray">&yen;</span>20</span>
+				</span>
+				<button class="fr f16 mui-btn btn_blue show" onclick="jQuery('.ln_popbody').show()">确认付款</button>
+			</div>
+			<p class="font_gray ml10 mr10 mt5">温馨提示：医生的建议仅供参考，具体诊疗请前往医院面诊医生</p>
+			<!--弹出付款页面-->
+			<div class="ln_popbody" style="display:none;">
+				<div class="ln_poppay">
+					<div class=" clearfix">
+						<a class="fr close" onclick="jQuery('.ln_popbody').hide()" href="#">
+							<svg class="icon icon-close" aria-hidden="true">
+							    <use xlink:href="#icon-close"></use>
+							</svg>
+						</a>
+					</div>
+					<p class="f18 font_black">名医答</p>
+					<p class="f18 font_red">20元</p>
+					<p class="ln_paybor">请输入支付密码</p>
+					<div class="clearfix">
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						
+					</div>
+					<a class="font_blue" href="#">零钱（45元）&gt;</a>
+				</div>
+			</div>
+			<!--付款页面结束-->
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+    	function setH(){
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+			mheight[0].style.minHeight=vheight+"px";
+		}
+		window.onload=function(){
+			setH();
+		}
+		
+      	mui.init();
+    </script>
+</html>

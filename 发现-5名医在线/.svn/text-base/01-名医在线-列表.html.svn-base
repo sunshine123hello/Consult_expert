@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>名医在线</title>
+    <link rel="stylesheet" href="../font/iconfont.css" />
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/common.css" rel="stylesheet"/>
+    <link href="../css/page_ln.css" rel="stylesheet"/>
+    <script type="text/javascript" src="../font/iconfont.js"></script>
+   
+</head>
+<body>
+	<!--底部-->
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item" href="#tabbar_fx">
+			<span class="mui-tab-label">发现</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar_wt">
+			<span class="mui-tab-label">问题</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar_wd">
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	<!--内容区-->
+	<div class="mui-content mheight">
+	    <!--专家在线-->
+	    <div class="p10 pmt4">
+	    	<a class="display_b pr10 clearfix" href="javascript:viod(0);">
+	    		<span class="ln_jklbt">名医在线</span>
+	    	</a>
+	    	<a href="javascript:viod(0);">
+	    		<img class="pw100 pmt3" src="../img/fam_doc2.png"/>
+	    	</a>
+	    	<a href="javascript:viod(0);">
+	    		<img class="pw100 pmt3" src="../img/fam_doc1.png"/>
+	    	</a>
+	    </div>
+	</div>
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+    	function setH(){
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+			mheight[0].style.minHeight=vheight+"px";
+		}
+		window.onload=function(){
+			setH();
+		}
+		
+      	mui.init();
+    </script>
+</body>
+</html>

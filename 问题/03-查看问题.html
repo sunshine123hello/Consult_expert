@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>问题详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../font/iconfont.css"/>
+		<link rel="stylesheet" href="../css/page_xy.css"/>
+		<script src="../font/iconfont.js"></script>
+	</head>
+	<body>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_my">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div class="mui-content btn_padding mheight">
+			<p class="xy_col f14 xy_tit">公开问题
+			<span class="ml10">已回复</span>
+			</p>
+			<ul class="mui-table-view xy_doctor">
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right">
+						<div class="fl mr10">
+							<img class="doc_photo" src="../img/doc.png" alt="医生">
+						</div>
+						<div class="mui-media-body mt5 xy_pr">
+							<div class="f14 font_black fl mr5">
+								陆斌
+								<svg class="icon icon-V" aria-hidden="true">
+									<use xlink:href="#icon-V"></use>
+								</svg>
+							</div>
+							<p class="fl xy_gray f12 xy_lh18">副主治医师</p>
+							<div class="fr mr10">
+	        					<span class="font_gray mr5">¥</span><span class="font_red">20</span>
+	        				</div>
+							<div class="cb"></div>
+							<p class="f12 xy_lh"><span class="mr5">口腔外科</span>秦都口腔医院  </p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view xy_top">
+				<li class="mui-table-view-divider xy_top font_gray1 f12">患者提问</li>
+				<li class="mui-table-view-cell overflow_h xy_tit">
+					<div class="fl mr10">
+						<img src="../img/user.png" class="xy_use"/>
+						<p class="f14 font_gray1 tc">李白</p>
+					</div>
+					<div class="mui-media-body mt5 mb5">
+						<span class="f14 font_black display_i xy_mr2"><i class="f14 xy_i xy_col">问题  </i>谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.</span>
+						<p class="tr font_gray1 f12 xy_lh19">2016年12月15日     10:10</p>
+					</div>
+				</li>
+			</ul>
+			<div class="overflow_h">
+				<div class="xy_tit overflow_h fr">
+					<p class="f12 fl margin0 pw80">陆斌医生已经回答了该问题,您需要支付￥<span class="font_red">1</span>元,查看答案</p>
+					<button type="button" class="xy_button font_white tc">一元查看答案</button>
+					<div class="fr">
+					    <img src="../img/doc.png" class="doc_photo"/>
+						<p class="f14 font_gray1 tc">李白</p>
+					</div>
+					<p class="f12 fl">5人查看过该答案</p>
+				</div>
+			</div>
+			<ul class="mui-table-view mb10">
+				<li>
+					<a class="mui-navigate-right xy_zx font_black pl10">
+						我也要咨询
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+	    	function setH(){
+				var vheight=window.screen.availHeight;
+				var mheight=document.getElementsByClassName("mheight");
+				mheight[0].style.minHeight=vheight+"px";
+			}
+			window.onload=function(){
+				setH();
+			}
+			
+	      	mui.init();
+	    </script>
+	</body>
+</html>
+
+
+
+

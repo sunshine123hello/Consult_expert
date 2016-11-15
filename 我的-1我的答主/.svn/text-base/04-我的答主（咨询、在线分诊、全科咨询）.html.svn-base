@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>医生主页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/page_ln.css">
+		<link rel="stylesheet" href="../font/iconfont.css" />
+		<script type="text/javascript" src="../font/iconfont.js"></script>
+   		
+	</head>
+	<body>
+		<!--底部-->
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wd">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div class="mui-content mheight">
+			<!--头部-->
+			<div class="ln_header">
+				<div class="clearfix">
+					<a class="fr" href="#">编辑资料</a>
+				</div>
+				<div class="margin_auto">
+					<img src="../img/doc.png" class="doc_img"/>
+				</div>
+				<p class="f16 fb mt10">陆斌
+					<svg class="icon icon-V ml10" aria-hidden="true">
+					    <use xlink:href="#icon-V"></use>
+				    </svg>
+				</p>
+				<p>秦都口腔医院</p>
+				<p class="f12">口腔科
+					<span class="ml10">副主任</span>
+				</p>
+			</div>
+			<!--内容-->
+			<div class="ln_dzzixun clearfix">
+				<a class="pw33 fl tc pt5 display_b" href="#">
+					<svg class="icon icon-my_zx f40" aria-hidden="true">
+					    <use xlink:href="#icon-my_zx"></use>
+				    </svg>
+				    <p>咨询</p>
+				</a>
+				<a class="pw33 fl tc pt5 display_b" href="#">
+					<svg class="icon icon-my-zxfz f40" aria-hidden="true">
+					    <use xlink:href="#icon-my-zxfz"></use>
+				    </svg>
+				    <p>在线分诊</p>
+				</a>
+				<a class="pw33 fl tc pt5 display_b" href="#">
+					<svg class="icon icon-my_qkzx f40" aria-hidden="true">
+					    <use xlink:href="#icon-my_qkzx"></use>
+				    </svg>
+				    <p>全科咨询</p>
+				</a>
+			</div>
+			
+			<ul class="mui-table-view pmt4 mb10">
+				<li class="mui-table-view-cell p8">
+					<a class="mui-navigate-right">
+						<svg class="icon icon-my_tw mt3 ml5 f24 fl" aria-hidden="true">
+							<use xlink:href="#icon-my_tw"></use>
+						</svg>
+						<span class="fl ml10 mt5">我的提问</span>
+						<span class="ln_twxq">马上向医生提问</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell p8">
+					<a class="mui-navigate-right">
+						<svg class="icon icon-my_kgwt mt3 ml5 f24 fl" aria-hidden="true">
+							<use xlink:href="#icon-my_kgwt"></use>
+						</svg>
+						<span class="fl ml10 mt5">我看过的问题</span>
+						<span class="ln_twxq">去看看热门问题</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell p8">
+					<a class="mui-navigate-right">
+						<svg class="icon icon-my_gz mt3 ml5 f24 fl" aria-hidden="true">
+							<use xlink:href="#icon-my_gz"></use>
+						</svg>
+						<span class="fl ml10 mt5">我的关注</span>
+						<span class="ln_twxq">您还没关注任何医生</span>
+					</a>
+				</li>
+				<li class="mui-table-view-cell p8">
+					<a class="mui-navigate-right">
+						<svg class="icon icon-my_income mt3 ml5 f24 fl" aria-hidden="true">
+							<use xlink:href="#icon-my_income"></use>
+						</svg>
+						<span class="fl ml10 mt5">我的收入</span>
+						<span class="ln_twxq">您还没有任何收入</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+    	function setH(){
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+			mheight[0].style.minHeight=vheight+"px";
+		}
+		window.onload=function(){
+			setH();
+		}
+		
+      	mui.init();
+    </script>
+</html>

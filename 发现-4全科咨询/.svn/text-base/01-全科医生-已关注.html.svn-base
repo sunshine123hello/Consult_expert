@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>全科医生-已关注</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../font/iconfont.css"/>
+		<link rel="stylesheet" href="../css/page_xy.css"/>
+		<script src="../font/iconfont.js"></script>
+	</head>
+	<body>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_my">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div class="mui-content mheight">
+			<ul class="mui-table-view xy_border">
+				<li class="mui-table-view-cell mui-media">
+					<a class="" href="javascript:;">
+						<div class="fl mr10">
+							<svg class="icon icon-doc_qkzx" aria-hidden="true">
+								<use xlink:href="#icon-doc_zxfz"></use>
+							</svg>
+						</div>
+						<div class="mui-media-body mt10">
+							<div class="f16 xy_col fl fb">
+								全科医生
+								<svg class="icon icon-V" aria-hidden="true">
+									<use xlink:href="#icon-V"></use>
+								</svg>
+							</div>
+							<button type="button" class="mui-btn fr xy_jiaguan font_white btn_blue">已关注</button>
+							<div class="cb"></div>
+							<p class="f14 xy_lh18 xy_gray">健康乐全科医生 </p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="pb10 xy_doctor">
+				<button type="button" class="mui-btn mui-btn-block btn_blue pw90 margin0 f14 xy_wen">问医生</button>
+			</div>
+			<ul class="mui-table-view f12 font_black mt10">
+				<li class="mui-table-view-cell">答题数量<span class="f12 font_gray display_i fr xy_pl2">已回答<i class="xy_i">178</i>条问题</span></li>
+			</ul>
+			<ul class="mui-table-view xy_border xy_top">
+				<li class="mui-table-view-divider xy_top mt10 font_gray1 f12">已回答的公开问题</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<div class="mui-row xy_br">
+	        				<div class="xy_pr">
+	        					<span class="xy_span f12 overflow_h">秦都口腔医院副主任医生，秦都口腔医院副主任医生，擅长口腔外科治疗内外兼治。擅长口腔外科治疗内外兼治。</span>
+					            <p class="tr font_gray1 f12 xy_kan mt10">17人看过</p>
+	        				</div>
+	        			</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<div class="mui-row xy_br">
+	        				<div class="xy_pr">
+	        					<span class="xy_span f12 overflow_h">秦都口腔医院副主任医生</span>
+					            <p class="tr font_gray1 f12 xy_kan mt10">17人看过</p>
+	        				</div>
+	        			</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<div class="mui-row xy_br">
+	        				<div class="xy_pr">
+	        					<span class="xy_span f12 overflow_h">秦都口腔医院副主任医生，秦都口腔医院副主任医生，擅长口腔外科治疗内外兼治。</span>
+					            <p class="tr font_gray1 f12 xy_kan mt10">17人看过</p>
+	        				</div>
+	        			</div>
+					</a>
+				</li>
+			</ul>
+			<div class="pb10 pt10 xy_doctor">
+				<button type="button" class="mui-btn mui-btn-block btn_blue pw90 margin0 f14 xy_wen">问医生</button>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+	    	function setH(){
+				var vheight=window.screen.availHeight;
+				var mheight=document.getElementsByClassName("mheight");
+				mheight[0].style.minHeight=vheight+"px";
+			}
+			window.onload=function(){
+				setH();
+			}
+			
+	      	mui.init();
+	    </script>
+	</body>
+</html>
+

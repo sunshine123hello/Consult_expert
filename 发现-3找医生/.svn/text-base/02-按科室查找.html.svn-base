@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>按科室查找</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/page_xy.css"/>
+	</head>
+	<body>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_my">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div class="mui-content mheight">
+			<p class="xy_col f14 xy_tit">按科室查找医生</p>
+			<ul class="mui-table-view f12 font_black mt10">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						分诊助手
+						<span class="font_gray1 f12 fr mr10 display_i"></span>
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view f12 font_black mt10">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						全科医生
+						<span class="font_gray1 f12 fr mr10 display_i"></span>
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view xy_border xy_top">
+				<li class="mui-table-view-divider xy_top mt10 font_gray1 f12">热门科室</li>
+				<li class="xy_table xy_li">
+					<button type="button" class="mui-btn f12">妇产科</button>
+					<button type="button" class="mui-btn f12">儿科</button>
+					<button type="button" class="mui-btn f12">内科</button>
+				</li>
+			</ul>
+			<ul class="mui-table-view xy_border xy_top">
+				<li class="mui-table-view-divider xy_top mt10 font_gray1 f12">全部科室</li>
+				<li class="xy_table xy_li">
+					<button type="button" class="mui-btn f12">外科</button>
+					<button type="button" class="mui-btn f12">皮肤性病皮肤性病皮肤性病</button>
+					<button type="button" class="mui-btn f12">泌尿男科</button>
+					<button type="button" class="mui-btn f12">骨科</button>
+					<button type="button" class="mui-btn f12">中医科</button>
+					<button type="button" class="mui-btn f12">眼科</button>
+					<button type="button" class="mui-btn f12">耳鼻喉科</button>
+					<button type="button" class="mui-btn f12">口腔科</button>
+					<button type="button" class="mui-btn f12">美容整形</button>
+					<button type="button" class="mui-btn f12">营养科</button>
+					<button type="button" class="mui-btn f12">肿瘤科</button>
+					<button type="button" class="mui-btn f12">精神心理</button>
+					<button type="button" class="mui-btn f12">影像科</button>
+				</li>
+			</ul>
+		</div>
+		
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+	    	function setH(){
+				var vheight=window.screen.availHeight;
+				var mheight=document.getElementsByClassName("mheight");
+				mheight[0].style.minHeight=vheight+"px";
+			}
+			window.onload=function(){
+				setH();
+			}
+			
+	      	mui.init();
+	    </script>
+	</body>
+</html>

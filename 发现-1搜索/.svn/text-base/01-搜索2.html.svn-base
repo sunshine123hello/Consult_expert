@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>搜索</title>
+    <link rel="stylesheet" href="../css/mui.min.css"/>
+    <link rel="stylesheet" href="../font/iconfont.css"/>
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/page_zh.css"/>
+    <script type="text/javascript" src="../font/iconfont.js"></script>
+</head>
+<body>
+	<!--底部固定部分-->
+	<div class="bt_fixed">
+		<!--底部按钮-->
+		<div class="bottom_btn">
+			<button type="button" class="mui-btn btn_blue pw100">呼唤医生</button>
+		</div>
+		<!--底部tab-->
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wd">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+	</div>
+	<!--内容区-->
+	<div class="mui-content mheight">
+		<div class="mui-content-padded">
+			<!--搜索-->
+			<div class="mui-input-row mui-search">
+				<input type="search" class="mui-input-clear" placeholder="搜索">
+			</div>
+			<p class="pmt5">没有找到“<span>陆斌</span>”相关的医生，您可以换个关键词，重新搜索试试，或者去<span class="font_blue">呼唤医生</span>加入这个平台吧。</p>
+			
+		</div>
+	</div>
+	
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+    	function setH(){
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+			mheight[0].style.minHeight=vheight+"px";
+		}
+		window.onload=function(){
+			setH();
+		}
+		
+      	mui.init();
+    </script>
+</body>
+</html>

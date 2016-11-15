@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的提问</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/page_zh.css"/>
+		<link rel="stylesheet" href="../css/page_xy.css"/>
+		<link rel="stylesheet" href="../css/page_ln.css">
+		<script src="../font/iconfont.js"></script>
+	</head>
+	<body>
+		<div class="bt_fixed">
+			<div class="xy_fix pw90">
+				<button type="button" class="mui-btn mui-btn-block btn_blue xy_wen f14" onclick="jQuery('.ln_popbody').show()">缴费</button>
+			</div>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="#tabbar_fx">
+					<span class="mui-tab-label">发现</span>
+				</a>
+				<a class="mui-tab-item" href="#tabbar_wt">
+					<span class="mui-tab-label">问题</span>
+				</a>
+				<a class="mui-tab-item" href="#tabbar_my">
+					<span class="mui-tab-label">我的</span>
+				</a>
+			</nav>
+		</div>
+		<div class="mui-content btn_padding mheight">
+			<p class="xy_col f14 xy_tit">公开问题
+				<span class="ml10">待缴费</span>
+			</p>
+			<ul class="mui-table-view xy_doctor">
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right">
+						<div class="fl mr10">
+							<img class="doc_photo" src="../img/doc.png" alt="医生">
+						</div>
+						<div class="mui-media-body mt5 xy_pr">
+							<div class="f14 font_black fl mr5">
+								陆斌
+								<svg class="icon icon-V" aria-hidden="true">
+									<use xlink:href="#icon-V"></use>
+								</svg>
+							</div>
+							<p class="fl xy_gray f12 xy_lh18">副主治医师</p>
+							<div class="fr">
+	        					<span class="font_gray mr5">¥</span><span class="font_red">20</span>
+	        				</div>
+							<div class="cb"></div>
+							<p class="f12 xy_lh"><span class="mr5">口腔外科</span>秦都口腔医院 </p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view xy_top">
+				<li class="mui-table-view-divider xy_top font_gray1 f12">我的提问</li>
+				<li class="mui-table-view-cell overflow_h xy_border xy_tit">
+					<div class="fl mr10">
+						<img src="../img/user.png" class="xy_use"/>
+						<p class="f14 font_gray1 tc">李白</p>
+					</div>
+					<div class="mui-media-body mt5 xy_pr1 xy_border">
+						<span class="f14 font_black display_i xy_mr2"><i class="f14 xy_i xy_col">问题  </i>谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.</span>
+						<p class="tr font_gray1 f12 xy_lh19">2016年12月15日     10:10</p>
+					</div>
+				</li>
+			</ul>
+			<div class="f12 font_gray1 mui-table-view-divider xy_border">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#icon-warning"></use>
+				</svg>
+				缴费后，您的问题才能被提交给医生
+		    </div>
+			<!--弹出付款页面-->
+			<div class="ln_popbody" style="display:none;">
+				<div class="ln_poppay">
+					<div class=" clearfix">
+						<a class="fr close" onclick="jQuery('.ln_popbody').hide()" "javascript:viod(0);">
+							<svg class="icon icon-close" aria-hidden="true">
+							    <use xlink:href="#icon-close"></use>
+							</svg>
+						</a>
+					</div>
+					<p class="f18 font_black">名医答</p>
+					<p class="f18 font_red">1元</p>
+					<p class="ln_paybor">请输入支付密码</p>
+					<div class="clearfix">
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						<input type="password" maxlength="1" class="ln_paypw"/>
+						
+					</div>
+					<a class="font_blue" "javascript:viod(0);">零钱（45元）&gt;</a>
+				</div>
+			</div>
+			<!--付款页面结束-->
+		</div>
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+	    	function setH(){
+				var vheight=window.screen.availHeight;
+				var mheight=document.getElementsByClassName("mheight");
+				mheight[0].style.minHeight=vheight+"px";
+			}
+			window.onload=function(){
+				setH();
+			}
+			
+	      	mui.init();
+	    </script>
+	</body>
+</html>

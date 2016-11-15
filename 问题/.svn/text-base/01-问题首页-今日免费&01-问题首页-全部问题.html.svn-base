@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no"> 
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>问题</title>
+		<link rel="stylesheet" href="../css/mui.min.css"/>
+		<link rel="stylesheet" href="../font/iconfont.css"/>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/page_zh.css"/>
+		<script type="text/javascript" src="../font/iconfont.js"></script>
+		
+	</head>
+
+	<body>
+
+		<style>
+			.mui-control-content {
+				/*background-color: white;*/
+				min-height: 215px;
+			}
+		</style>
+		
+		<!--底部tab-->
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_my">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div class="mui-content mheight">
+			<div class="mui-content-padded">
+				<!--搜索-->
+				<div class="mui-input-row mui-search">
+					<input type="search" class="mui-input-clear" placeholder="按科室搜索">
+				</div>
+			</div>
+			<div id="slider" class="mui-slider">
+				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item" href="#item1mobile">
+						今日免费
+					</a>
+					<a class="mui-control-item" href="#item2mobile">
+						全部问题
+					</a>
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6"></div>
+				<div class="mui-slider-group pmt5">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<!--咨询列表-->
+								<ul class="mui-table-view mui-table-view-chevron zh_tabul">
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+													<svg class="icon icon-V zh_v" aria-hidden="true">
+													  <use xlink:href="#icon-V"></use>
+													</svg>
+					        						<p class="tc">陆斌</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">2014人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+					        						<p class="tc">张医生</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">201人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/photo.png" alt="医生">
+					        						<p class="tc">李医生</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">324人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+					        						<p class="tc">张明</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">201人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+					        						<p class="tc">陈锋</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">20人看过</span>
+					        			</div>
+									</a>
+								</li>
+								
+							</ul>
+								<!--底部加载更多-->
+								<div class="load_more">
+									<a class="font_gray" href="javascript:void(0);">点击加载更多</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<!--最新问题-->
+								<div class="f12 clearfix">
+									<span class="fl font_gray ml10">最新问题</span>
+									<a class="fr" href="javascript:void(0);">
+										查看更多
+										<svg class="icon icon-go" aria-hidden="true">
+										  <use xlink:href="#icon-go"></use>
+										</svg>
+									</a>
+								</div>
+								<!--咨询列表-->
+								<ul class="mui-table-view mui-table-view-chevron zh_tabul">
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+													<svg class="icon icon-V zh_v" aria-hidden="true">
+													  <use xlink:href="#icon-V"></use>
+													</svg>
+					        						<p class="tc">陆斌</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">2014人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+					        						<p class="tc">张医生</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">201人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/photo.png" alt="医生">
+					        						<p class="tc">李医生</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">324人看过</span>
+					        			</div>
+									</a>
+								</li>
+								
+							</ul>
+								
+								<!--热门问题-->
+								<div class="pmt5 f12 clearfix">
+									<span class="fl font_gray ml10">热门问题</span>
+									<a class="fr" href="javascript:void(0);">
+										查看更多
+										<svg class="icon icon-go" aria-hidden="true">
+										  <use xlink:href="#icon-go"></use>
+										</svg>
+									</a>
+								</div>
+								<!--咨询列表-->
+								<ul class="mui-table-view mui-table-view-chevron zh_tabul">
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+													<svg class="icon icon-V zh_v" aria-hidden="true">
+													  <use xlink:href="#icon-V"></use>
+													</svg>
+					        						<p class="tc">陆斌</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">2014人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/doc.png" alt="医生">
+					        						<p class="tc">张医生</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">201人看过</span>
+					        			</div>
+									</a>
+								</li>
+								<li class="mui-table-view-cell mui-media">
+									<a class="mui-navigate-right">
+										<div class="mui-row zh_row pr">
+					        				<div class="mui-col-sm-2">
+					        					<div class="zh_doc">
+					        						<img class="doc_photo" src="../img/photo.png" alt="医生">
+					        						<p class="tc">李医生</p>
+					        					</div>
+					        				</div>
+					        				<div class="mui-col-sm-10 mui-col-xs-9">
+					        					<p class="mt5 font_black clamp2">
+					        						<span class="font_blue mr5">问题</span>
+					        						<span>糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？糖尿病平时饮食注意什么？</span>
+					        					</p>
+					        				</div>
+					        				<span class="zh_zxtag font_gray1">324人看过</span>
+					        			</div>
+									</a>
+								</li>
+								
+							</ul>
+								
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script>
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+				mheight[0].style.minHeight=vheight+"px";
+			}
+			window.onload=function(){
+				setH();
+			}
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+				
+			})(mui);
+		</script>
+		
+	</body>
+
+</html>

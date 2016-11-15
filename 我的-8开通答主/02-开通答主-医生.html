@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>开通答主</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/page_ln.css">
+		<link rel="stylesheet" href="../css/page_xy.css">
+		<link rel="stylesheet" href="../font/iconfont.css" />
+		<script type="text/javascript" src="../font/iconfont.js"></script>
+		<script src="../js/jquery-1.9.1.min.js"></script>
+		<script>
+			$(function(){
+				$(".ln_zhicheng").click(function(){
+					$(this).addClass("active").siblings().removeClass("active");
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<!--底部-->
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="#tabbar_fx">
+				<span class="mui-tab-label">发现</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wt">
+				<span class="mui-tab-label">问题</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar_wd">
+				<span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+		<div class="mui-content mheight">
+			<div class="mui-table-view mt10">
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl">
+						<svg class="icon icon-star_red f12" aria-hidden="true">
+					        <use xlink:href="#icon-star_red"></use>
+					    </svg>
+					        您的职业
+					</div>
+					<div class="ln_select clearfix">
+						<a class="ln_zhicheng active fl" href="#">医生</a>
+						<a class="ln_zhicheng fl" href="#">护士</a>
+						<a class="ln_zhicheng fl" href="#">其它</a>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl">
+						<svg class="icon icon-star_red f12" aria-hidden="true">
+					        <use xlink:href="#icon-star_red"></use>
+					    </svg>
+						您的姓名
+					</div>
+					<div class="ln_select">
+						<input type="text" class="ln_inputname"/>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl">
+						<svg class="icon icon-star_red f12" aria-hidden="true">
+					        <use xlink:href="#icon-star_red"></use>
+					    </svg>
+						您的职称
+					</div>
+					<div class="ln_select clearfix">
+						<a class="ln_zhicheng fl" href="#">主任</a>
+						<a class="ln_zhicheng fl" href="#">副主任</a>
+						<a class="ln_zhicheng fl" href="#">主治</a>
+						<a class="ln_zhicheng fl" href="#">医师</a>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl">
+						<svg class="icon icon-star_red f12" aria-hidden="true">
+					        <use xlink:href="#icon-star_red"></use>
+					    </svg>
+						您的医院
+					</div>
+					<div class="ln_select">
+						<input type="text" class="ln_inputname"/>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl">
+						<svg class="icon icon-star_red f12" aria-hidden="true">
+					        <use xlink:href="#icon-star_red"></use>
+					    </svg>
+						您的科室
+					</div>
+					<div class="ln_select">
+						<form class="pr pw90">
+							<select class="ln_keshi" name="科室">
+								<option value="儿科">儿科</option>
+								<option value="产科">产科</option>
+								<option value="耳鼻喉科">耳鼻喉科</option>
+							</select>
+							<a class="pa ln_sebg" href="#"></a>
+						</form>
+						<p class="f12" style="margin-top: -10px;">请选择一个相近的科室</p>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl"><br />
+					<svg class="icon icon-star_red f12" aria-hidden="true">
+					        <use xlink:href="#icon-star_red"></use>
+					    </svg>
+					您的简介
+					</div>
+					<div class="ln_select">
+						<textarea class="ln_inputname" rows="5" placeholder=""></textarea>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl">告诉我们</div>
+					<div class="ln_select">
+						<textarea class="ln_inputname" rows="3" placeholder="告诉我们您想要对我们说的话"></textarea>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="clearfix">
+						<div class="ln_zhiye fl">认证</div>
+						<div class="ln_select pr  clearfix">
+							<a href="#picture" class="ln_shangc mui-btn-primary mui-btn-outlined fl">
+								<svg class="icon icon-upload f50" aria-hidden="true">
+					                <use xlink:href="#icon-upload"></use>
+					            </svg>
+							</a>
+							<p class="fl font_blue ln_tishi">
+							请拍照上传您的执业证书或医师资格证书或能看清工牌的正面工作照（最多上传5张）
+							</p>
+						</div>
+					</div>
+					<p class="f12 mr10">认证之后，您将获得“可信任认证提示”，为方便更多的患者和同行找到您。</p>
+					<!--当有上传的图片时，显示，开始-->
+					<div class="ln_renzh mb10 clearfix">
+						<a class="fl" href="#">
+							<img src="../img/doc.png" width="50" height="50"/>
+						</a>
+						<a class="fl" href="#">
+							<img src="../img/doc.png" width="50" height="50"/>
+						</a>
+						
+					</div>
+					<!--当有上传的图片时，显示，结束-->
+					<!--上传图片弹出框-->
+					<div id="picture" class="mui-popover mui-popover-action mui-popover-bottom" style="width: 92%;">
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell font_black">
+								<a "javascript:viod(0);">拍照</a>
+							</li>
+							<li class="mui-table-view-cell font_black">
+								<a "javascript:viod(0);">相册</a>
+							</li>
+						</ul>
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell font_black">
+								<a href="#picture"><b>取消</b></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="ln_ziliao clearfix">
+					<div class="ln_zhiye fl">设置价格</div>
+					<div class="ln_select">
+						<a class="ln_zhicheng fl" href="#">&yen;<span>10</span></a>
+						<a class="ln_zhicheng active fl" href="#">&yen;<span>20</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>30</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>60</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>100</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>120</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>150</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>180</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>200</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>300</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>360</span></a>
+						<a class="ln_zhicheng fl" href="#">&yen;<span>500</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="bottom_btn">
+				<button type="button" class="mui-btn btn_blue pw100">确认提交</button>
+			</div>
+		</div>
+	</body>
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+    	function setH(){
+			var vheight=window.screen.availHeight;
+			var mheight=document.getElementsByClassName("mheight");
+			mheight[0].style.minHeight=vheight+"px";
+		}
+		window.onload=function(){
+			setH();
+		}
+		
+      	mui.init();
+    </script>
+</html>

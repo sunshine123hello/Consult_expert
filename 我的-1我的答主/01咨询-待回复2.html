@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>问题详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../font/iconfont.css"/>
+		<link rel="stylesheet" href="../css/page_xy.css"/>
+		<script src="../font/iconfont.js"></script>
+	</head>
+	<body>
+		<div class="bt_fixed">
+			<div class="xy_fix pw90">
+				<button type="button" class="mui-btn mui-btn-block f14 xy_wen font_gray xy_bcol">按住   说话</button>
+			</div>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" href="#tabbar_fx">
+					<span class="mui-tab-label">发现</span>
+				</a>
+				<a class="mui-tab-item" href="#tabbar_wt">
+					<span class="mui-tab-label">问题</span>
+				</a>
+				<a class="mui-tab-item" href="#tabbar_my">
+					<span class="mui-tab-label">我的</span>
+				</a>
+			</nav>
+		</div>
+		<div class="mui-content mheight">
+			<p class="xy_col f14 xy_tit">公开问题
+			<span class="ml10">待回复</span>
+			</p>
+			<ul class="mui-table-view xy_top">
+				<li class="mui-table-view-divider xy_top font_gray1 f12">患者提问</li> 
+				<li class="mui-table-view-cell overflow_h pr">
+					<a href="#" class="display_b pb10 xy_br">
+						<div class="fl mr10">
+							<img src="../img/user.png" class="xy_use"/>
+							<p class="f14 font_gray1 tc">李白</p>
+						</div>
+						<div class="mui-media-body mt5 xy_pr1">
+							<span class="f14 font_black display_i xy_mr2"><i class="f14 xy_i xy_col">问题  </i>谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.谢谢医生的回答,很细致,很有帮助.</span>
+							<p class="tr font_gray1 f12">2016年12月15日     10:10</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+	    	function setH(){
+				var vheight=window.screen.availHeight;
+				var mheight=document.getElementsByClassName("mheight");
+				mheight[0].style.minHeight=vheight+"px";
+			}
+			window.onload=function(){
+				setH();
+			}
+			
+	      	mui.init();
+	    </script>
+	</body>
+</html>

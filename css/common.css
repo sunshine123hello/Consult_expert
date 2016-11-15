@@ -1,0 +1,189 @@
+html,body{overflow: auto;font-size:62.5%;}
+body,button, input, select, textarea{font:14px/1.5 "Microsoft YaHei", "Arial", "Verdana", "sans-serif";
+color: #333; background-color: #F9F9Fc;word-break:break-all;word-wrap:break-word;text-align:justify;text-justify:inter-ideograph;}
+img{vertical-align: middle;color:#c6c6c6;text-align:center;}
+:focus{outline:none;}
+a{color:transparent;text-decoration:none;blr:expression(this.onFocus=this.blur());}
+a:hover{text-decoration:none;outline:0}
+.hover_unl:hover,.unl{text-decoration: underline;}
+.clearfix:after{display: block;visibility: hidden;font-size: 0;content:" ";clear: both;height: 0;}
+.clearfix{zoom:1;}
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.tj{text-align:justify;text-justify:inter-ideograph;}
+.text_h{overflow : hidden;white-space: nowrap; text-overflow: ellipsis;}
+.fb{font-weight: bold;}
+.fn{font-weight: normal;}
+.fi{font-style: italic;}
+.tr{text-align: right;}
+.tc{text-align: center;}
+.cp{cursor: pointer;}
+.display_i{display: inline-block;*display:inline;*zoom:1;}
+.display_b{display: block;}
+.display_n{display: none;}
+.margin_auto{margin-left: auto;margin-right: auto;}
+.margin0{margin:0 auto}
+.overflow_h{overflow: hidden;}
+.vm{vertical-align: middle;}
+.vb{vertical-align: bottom;}
+.resize_n{resize:none;}
+/*字号*/
+.f10{font-size:10px;font-size:1.0rem;}
+.f12{font-size:12px;font-size:1.2rem;}
+.f14{font-size:14px;font-size:1.4rem;}
+.f16{font-size:16px;font-size:1.6rem;}
+.f18{font-size:18px;font-size:1.8rem;}
+.f20{font-size:20px;font-size:2.0rem;}
+.f22{font-size:22px;font-size:2.2rem;}
+.f24{font-size:24px;font-size:2.4rem;}
+.f26{font-size:26px;font-size:2.6rem;}
+.f28{font-size:28px;font-size:2.8rem;}
+.f30{font-size:30px;font-size:3.0rem;}
+.f40{font-size:40px;font-size:4.0rem;}
+/*字体颜色*/
+.font_black{color: #333;}
+.font_white{color: #fff;}
+.font_blue{color: #4FA0DE;}
+.font_red{color: #FF6464;}
+.font_gray{color: #8f8f94;}
+.font_gray1{color: #b6b6b6;}
+/*宽度*/
+.pw5{width:5%;}
+.pw10{width:10%;}
+.pw20{width:20%;}
+.pw30{width:30%;}
+.pw33{width:33%;}
+.pw40{width:40%;}
+.pw50{width:50%;}
+.pw60{width:60%;}
+.pw70{width:70%;}
+.pw80{width:80%;}
+.pw90{width:90%;}
+.pw100{width:100%;}
+/*pading/margin*/
+.p5{padding: 5px;}
+.p8{padding: 8px;}
+.p10{padding: 10px;}
+.p15{padding: 15px;}
+.pt5{padding-top:5px;}
+.pt10{padding-top:10px;}
+.pr5{padding-right:5px;}
+.pr10{padding-right:10px;}
+.pb5{padding-bottom:5px;}
+.pb10{padding-bottom:10px;}
+.pl5{padding-left:5px;}
+.pl10{padding-left:10px;}
+.m5{margin: 5px;}
+.m10{margin: 10px;}
+.mt3{margin-top: 3px;}
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mr5{margin-right: 5px;}
+.mr10{margin-right: 10px;}
+.mr20{margin-right: 20px;}
+.mb5{margin-bottom: 5px;}
+.mb10{margin-bottom: 10px;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+
+.pp3{padding: 3%;}
+.pp4{padding: 4%;}
+.pp5{padding: 5%;}
+.ppt3{padding-top: 3%;}
+.ppt4{padding-top: 4%;}
+.ppt5{padding-top: 5%;}
+.ppr3{padding-right: 3%;}
+.ppr4{padding-right: 4%;}
+.ppr5{padding-right: 5%;}
+.ppb3{padding-bottom: 3%;}
+.ppb4{padding-bottom: 4%;}
+.ppb5{padding-bottom: 5%;}
+.ppl3{padding-left: 3%;}
+.ppl4{padding-left: 4%;}
+.ppl5{padding-left: 5%;}
+
+.pm1{margin: 1%;}
+.pm2{margin: 2%;}
+.pm3{margin: 3%;}
+.pm4{margin: 4%;}
+.pm5{margin: 5%;}
+.pmt1{margin-top: 1%;}
+.pmt2{margin-top: 2%;}
+.pmt3{margin-top: 3%;}
+.pmt4{margin-top: 4%;}
+.pmt5{margin-top: 5%;}
+.pmt10{margin-top: 10%;}
+.pmr1{margin-right: 1%;}
+.pmr2{margin-right: 2%;}
+.pmr3{margin-right: 3%;}
+.pmr4{margin-right: 4%;}
+.pmr5{margin-right: 5%;}
+.pmb1{margin-bottom: 1%;}
+.pmb2{margin-bottom: 2%;}
+.pmb3{margin-bottom: 3%;}
+.pmb4{margin-bottom: 4%;}
+.pmb5{margin-bottom: 5%;}
+.pml1{margin-left: 1%;}
+.pml2{margin-left: 2%;}
+.pml3{margin-left: 3%;}
+.pml4{margin-left: 4%;}
+.pml5{margin-left: 5%;}
+/*header
+.mui-bar-nav{background-color: #323232;}
+a.mui-action-back{color: #fff;}
+a.mui-action-back span{font-size: 18px;}
+.mui-title{color: #fff;}*/
+/*背景色*/
+.mui-content{background-color: #F9F9Fc;}
+/*搜索框*/
+.mui-search .mui-placeholder .mui-icon{color: #4FA0DE;}
+.mui-search:before{content:'\e466';color: #479CDC;margin-top:-22px;}
+input[type=search]{background-color: #E8E8E8; border-radius: 20px;border: 1px solid #D9D9D9;}
+/*底部tab*/
+.mui-bar-tab{padding: 5px 0;}
+.mui-bar-tab .mui-tab-item{border-right: 1px solid #D9D9D9;color: #333;height: 40px;}
+.mui-bar-tab .mui-tab-item:last-child{border-right: none;}
+.mui-bar-tab .mui-tab-item.mui-active{color: #479CDC;}
+/*页面底部固定部分*/
+.bt_fixed{position: fixed;left: 0;bottom: 0;width:100%;z-index: 998;}
+.bottom_btn{text-align: center;padding: 10px;width: 100%;background-color: #F9F9Fc;}
+.bt_fixed .mui-bar-tab{position:initial;}
+.mheight{padding-bottom: 110px;}
+/*右侧列表箭头*/
+.mui-navigate-right:after, .mui-push-left:after, .mui-push-right:after{color: #479CDC;}
+/*医生头像*/
+.doc_photo{width: 50px;height: 50px;margin-right: 10px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+.doc_img{width: 5.0rem;height: 5.0rem;margin-right: 10px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+/*按钮*/
+.btn_blue{color: #fff;background-color: #4FA0DE!important;border-color: #4FA0DE;}
+.btn_gray{color: #fff;background-color: #D9D9D9!important;border-color: #D9D9D9;}
+/*a链接*/
+a,a:active{color: #479CDC;}
+/*2行隐藏，注意加宽度*/
+.clamp2{display:-webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden; white-space: normal;}
+/*加载更多*/
+.load_more{text-align: center;padding: 10px;background-color: #F9F9Fc;}
+/*问题tab切换*/
+.mui-segmented-control.mui-segmented-control-inverted{
+	background-color: #fff;
+	border-top: 1px solid #E0DEDE;border-bottom:1px solid #E0DEDE; 
+	}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	    color: #479CDC;
+    border-bottom: 2px solid #479CDC;
+}
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{
+	    background-color: #479CDC;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border: 0;
+}
+.mui-scroll-wrapper,.mui-scroll{position: initial;}
+.zh_tabul{border-top: 1px solid #c8c7cc;
+    border-bottom: 1px solid #c8c7cc;}

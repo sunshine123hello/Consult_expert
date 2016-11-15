@@ -1,0 +1,14 @@
+/*医生列表*/
+.zh_keyword{color: #479CDC;font-weight: bold;font-size:16px;font-size:1.6rem;}
+.zh_doc{width: 50px;position: relative;margin-right: 10px;}
+.zh_v{position: absolute;right: 0px;top: 32px;}
+.zh_price{position: absolute;top:37%;right:40px;right:3.0rem;}
+.zh_row{margin-right: -50px;}
+.zh_tag{border: 1px solid #479CDC;padding: 2px;border-radius: 4px;font-size: 12px;font-size: 1.2rem;}
+.zh_inpbox input[type=text]{width: 75%;margin-bottom: 0;}
+.zh_inpbox button{width: 20%;height: 40px;}
+.zh_hfnum{margin-right: 5%;max-width: 20%;text-align: right;}
+/*咨询状态*/
+.zh_hftag{position: absolute;font-size: 12px;font-size: 1.2rem;top:-10px;right:0;}
+.zh_zxtag{position: absolute;font-size: 12px;font-size: 1.2rem;bottom:0;right:10px;}
+

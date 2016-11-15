@@ -1,0 +1,275 @@
+/*分诊在线-01-分诊助手-未关注*/
+.xy_top:before,.xy_border:after,.xy_bg{
+	background-color:transparent;
+}
+.xy_guanzhu{
+	border: 1px solid #4FA0DE;
+	padding: 0 0.6em;
+	background: #fff;
+}
+.xy_gray{
+	color:#989898;
+}
+.xy_lh18{
+	line-height: 1.8em;
+}
+.xy_doctor{
+	background: #fff;
+	border-bottom: 1px solid #c8c7cc;
+}
+.xy_wen{
+	padding:0;
+    line-height: 2.4em;
+}
+.xy_br{
+	white-space: normal;
+}
+.xy_pr{
+	padding-right: 1em;
+}
+.xy_span{
+	display:-webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height:1.5em;
+    color:#323232;
+}
+.xy_kan{
+	line-height: 1.4em;
+}
+/*分诊在线-01-分诊助手-已关注*/
+.xy_jiaguan{
+	padding: 0 0.6em;
+}
+/*找医生-02-按科室查找*/
+.xy_tit{
+	padding: 11px 15px 0;
+}
+.xy_li button{
+	width: 23%;
+	margin-bottom: 0.78em;
+	border: 1px solid #4FA0DE;
+	margin-right:2%;
+	float:left;
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.xy_li button:nth-child(4){
+	margin-right:0;
+}
+.xy_table{
+    padding:10px 15px 0;
+    border-bottom: 1px solid #C8C7CC;
+    font-size: 0;
+    overflow: hidden;
+}
+/*找医生-04-医生介绍*/
+.xy_lh3{
+	line-height: 3em;
+}
+.xy_ti{
+	text-indent:2em;
+}
+.xy_lh19{
+	line-height: 1.9em;
+}
+/*找医生-04-医生主页*/
+.xy_pl2{
+	padding-left: 2em;
+}
+.xy_pr{
+    display:block;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+    word-break:normal;
+    line-height:1.5em;
+    margin-bottom:0;
+    color:#323232;
+}
+.xy_gray1{
+	color: #b6b6b6;
+}
+.xy_i{
+	color: #ff6464;
+	font-style:normal;
+}
+/*找医生-07-咨询成功*/
+.icon_success{
+	font-size: 9rem;
+}
+.xy_success{
+	margin-top:2.5em;
+}
+.xy_green{
+	color:#32CD26;
+}
+.xy_myt{
+	line-height:2.5em;
+}
+.xy_myt>a.font_blue{
+	color: #52A2DF;
+}
+.xy_hui{
+	color:#8E8E93;
+}
+.xy_mt2{
+	margin-top:2em;
+}
+/*名医在线-03-评价详情*/
+.xy_bor{
+	border-top:1px solid #C8C7CC;
+}
+.xy_lh15{
+	line-height: 1.5em;
+}
+.mui-table-view-cell>a.xy_pr0{
+	padding-right: 0px;
+}
+.xy_pr15{
+	padding-right: 15px;
+}
+.xy_use{
+	width: 3.6em;
+	height: 3.6em;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+/*我的-答主-01咨询*/
+.mui-table-view-cell>a.xy_br{
+	white-space: normal;
+}
+.xy_col{
+	color:#4FA0DE;
+}
+.xy_mr2{
+	margin-right: 2em;
+}
+.xy_bcol{
+	background-color: #e8e8e8;
+}
+.xy_fix{
+	margin: 0 auto;
+}
+/*我的-答主-01咨询-已回复-间断回复4*/
+.xy_huifu{
+	height:2.8em;
+	margin-top:0.5em;
+}
+.xy_cbor{
+	border-bottom: 1px solid #C8C7CC;
+}
+.xy_mixh{
+	min-height:4.2em;
+}
+/*我的-答主-2全科咨询-不可退*/
+.xy_p20{
+	padding:0 20px;
+}
+.xy_b8{
+	border: 1px solid #e8e8e8;
+}
+/*我的-答主-2全科咨询-回答问题*/
+.xy_chat{
+	width: 3.5em;
+	height: 2.5em;
+	background-color: #4fa0de;
+	border-radius: 5px;
+	margin-top:0.5em;
+}
+/*显示微信功能样式*/
+/*显示微信功能样式*/
+.xy_zhe{
+	background-color: #000;
+	width:145px;
+	height:145px;
+	position:fixed;
+	opacity: 0.3;
+	top: 50%;
+	left: 50%;
+	margin-top: -72px;
+	margin-left: -72px;
+	border-radius: 5px;
+}
+.xy_tan{
+	background:url(../img/tishi.png) no-repeat center center;
+	height:7em;
+	background-size: contain;
+	margin-top: 1em;
+}
+.xy_song{
+	background-color: #c2c2c2;
+	color: #323232;
+}
+.xy_chat1{
+	background: url(../img/mike.png) no-repeat center center;
+	background-size: 30% 75%;
+}
+li{
+	list-style-type:none;
+}
+/*我的提问-代缴费*/
+.xy_btnc{
+	background-color: #d9d9d9;
+	border: 1px solid #d9d9d9;
+}
+.xy_zj{
+	margin-left: 5%;
+	margin-top:8em;
+}
+/*我的提问-已退费*/
+.xy_mb0{
+	margin-bottom: 0;
+}
+/*我的提问-评价1*/
+.xy_zhezhao{
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+}
+.xy_pj{
+	width: 90%;
+	background-color:#fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1.5em;
+}
+.xy_max textarea{
+	height: 10em;
+	overflow: auto;
+	border: 0;
+	background-color: #fff;
+}
+.mui-table-view-cell>a.xy_mar0{
+	margin:0;
+}
+.xy_posit{
+	position: absolute;
+	bottom: 10em;
+	left: 50%;
+	margin-left: -45%;
+}
+/*我看过的问题-详情*/
+.xy_zx{
+	height:3em;
+    display: block;
+    line-height:3em;
+}
+/*问题*/
+.xy_button{
+	width:78%;
+    height: 2.5em;
+    background-color: #4fa0de;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}

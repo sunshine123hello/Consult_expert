@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>评价</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/page_zh.css"/>
+		<link rel="stylesheet" href="../css/page_xy.css"/>
+		<script src="../font/iconfont.js"></script>
+		<script src="../js/jquery-1.9.1.min.js"></script>
+	</head>
+	<body>
+		<div class="xy_zhezhao">
+			<div class="xy_pj">
+				<ul class="mui-table-view xy_top xy_border">
+					<li class="mui-table-view-cell overflow_h xy_border xy_tit">
+						<div class="fl mr10">
+							<img src="../img/user.png" class="xy_use">
+							<p class="f14 font_gray1 tc">李白</p>
+						</div>
+						<div class="mui-media-body mt5 xy_pr1 xy_border xy_max">
+							<textarea class="f14 font_black display_i xy_wid"></textarea>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="xy_pj">
+				<ul class="mui-table-view xy_top xy_border">
+					<li class="mui-table-view-cell">
+						<span class="f14 fl">满意程度</span>
+						<div class="icons fr xy_mar0">
+							<svg class="icon icon-star_hollow" aria-hidden="true" onclick="one()">
+								<use xlink:href="#icon-star_hollow" id="one"></use>
+							</svg>
+							<svg class="icon icon-star_hollow" aria-hidden="true" onclick="two()">
+								<use xlink:href="#icon-star_hollow" id="two"></use>
+							</svg>
+							<svg class="icon icon-star_hollow" aria-hidden="true" onclick="three()">
+								<use xlink:href="#icon-star_hollow" id="three"></use>
+							</svg>
+							<svg class="icon icon-star_hollow" aria-hidden="true" onclick="four()">
+								<use xlink:href="#icon-star_hollow" id="four"></use>
+							</svg>
+							<svg class="icon icon-star_hollow" aria-hidden="true" onclick="five()">
+								<use xlink:href="#icon-star_hollow" id="five"></use>
+							</svg>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="xy_pj">
+				<ul class="mui-table-view xy_top xy_border">
+					<li class="f14 mui-table-view-cell">
+						<span class="f14 fl">匿名提问</span>
+						<div class="mui-switch mui-switch-blue mui-switch-mini">
+							<div class="mui-switch-handle"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="pw90 xy_posit">
+			    <button type="button" class="mui-btn mui-btn-block btn_blue xy_wen f14">提交</button>
+			</div>
+		</div>
+		<script>
+			var _fuckid=["#one","#two","#three","#four","#five"];
+			var _gayid=["#icon-star_full","#icon-star_hollow"];
+			function fuck (id,gayid)
+			{
+				$(_fuckid[id]).attr("xlink:href",_gayid[gayid]);
+			}
+			function one(){
+			   fuck(0,0),fuck(1,1),fuck(2,1),fuck(3,1),fuck(4,1)
+			}
+			function two(){
+			   fuck(0,0),fuck(1,0),fuck(2,1),fuck(3,1),fuck(4,1)
+			}
+			function three(){
+			   fuck(0,0),fuck(1,0),fuck(2,0),fuck(3,1),fuck(4,1)
+			}
+			function four(){
+			   fuck(0,0),fuck(1,0),fuck(2,0),fuck(3,0),fuck(4,1)
+			}
+			function five(){
+			   fuck(0,0),fuck(1,0),fuck(2,0),fuck(3,0),fuck(4,0)
+			}
+		</script>
+	</body>
+</html>

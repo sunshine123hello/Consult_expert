@@ -1,0 +1,68 @@
+/*咨询页*/
+.pw120{width: 120%;}
+.ln_zixun{background: white;padding: 10px 10px 0 10px;border-top: 1px solid #D9D9D9;}
+.ln_shangc{display: inline-block;border: none!important;}
+.ln_pay{background: white;border-top: 1px solid #D9D9D9;border-bottom: 1px solid #D9D9D9;padding: 15px;font-size: 18px;margin-bottom: 10px;}
+.ln_deletetp{position: absolute;top: -6px;right: -5px;}
+.ln_borblue{border: 1px solid #4FA0DE;}
+/*弹出框支付成功*/
+.ln_popbody{background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;width: 100%;height: 100%;position: fixed;top: 0px;left: 0;}
+.mui-toast-message{padding: 30px 10px;width: 160px;color: white;font-size: 16px;background: #6E6E6E;}
+.mui-toast-container{bottom: 40%;}
+/*付款弹出框*/
+.ln_poppay{background: white;border-radius: 5px;width: 300px;text-align: center;margin-left: auto;margin-right: auto;margin-top: 10%;padding: 10px 10px 20px 10px;}
+.ln_paybor{border-top: 1px solid #e8e8e8;padding-top: 8px;}
+.ln_paypw{margin-right: 6px;float: left;width: 40px!important;}
+/*名医答主页*/
+.ln_hlist{padding: 0 2px;margin-top: 0;}
+.ln_hlist li{list-style: none;line-height: 1.2; border: 1px solid #E3E3E3;background: white;border-radius: 4px;height: 150px;padding: 0px;}
+.ln_hlist li a{height: 100%;padding:0px 10px 5px 10px!important;margin: 0px!important;}
+.ln_weikt{border-top: 1px solid #E3E3E3;border-bottom: 1px solid #E3E3E3;padding: 15px 10px;background: white;}
+.ln_jklbt{float: left;color: #4FA0DE;font-size: 18px;font-weight: bold;margin-right: 10px;}
+.ln_doclist{border-bottom: 1px solid #E3E3E3;padding: 20px 10px 0px 10px;background: white;}
+.ln_xrlist{padding: 0 2px;margin-top: 0;}
+.ln_xrlist li{list-style: none;padding: 10px 8px;}
+.ln_docpic{width: 40px;height: 40px;border-radius: 50%;border: 1px solid #92C5EA;}
+.ln_docpic img{width: 40px;border-radius: 20px;}
+.ln_docpic svg{right: -5px;bottom: -5px;}
+.ln_bwidth{width: 52%;margin-top: 5px;line-height: 1.5;}
+/*我的答主*/
+.ln_header{background: url(../img/my/bg_dochome.png);text-align: center;padding: 10px;}
+.ln_header a,.ln_header p{color: white;margin-bottom: 2px;}
+.ln_dzzixun{display: block;color: #333;margin-top: 4%;background: white;border-top: 1px solid #EDEDED;border-bottom: 1px solid #EDEDED;}
+.ln_dzzixun p{margin-bottom: 6px;color: #333;}
+.ln_twxq{margin-top: 4px;margin-right: 25px;float: right;font-size:12px;font-size:1.2rem;color: #8f8f94;}
+/*我的收入*/
+.ln_makemon{border:1px solid #EBEBEC;border-radius: 4px;background: white;padding: 10px;}
+.ln_makemon p{color: #323232;}
+/*开通答主*/
+.ln_obtain{width: 28%;padding: 9px 0;}
+.ln_opendz{width: 100%;line-height: 1.7;}
+.ln_protocol input[type=checkbox]:before{font-size: 20px;}
+.ln_protocol label{padding-left: 43px!important;}
+.ln_protocol input[type=checkbox]{top: 8px;}
+/*编辑资料*/
+.ln_ziliao{padding: 10px 5px 0 0;margin-left: 15px;border-bottom: 1px solid #e6e6e6;}
+.ln_zhiye{width: 27%;line-height: 2.4;float: left;}
+.ln_zhicheng{display: inline-block;border: 1px solid #64ABE2;color: #333;padding: 5px 12px;margin:0 10px 10px 0;border-radius: 4px;}
+.ln_zhicheng.active{background: #4FA0DE;color: white;}
+.ln_zhicheng.active span{color: white;}
+.ln_zhicheng span{color: #FF7474;margin-left: 3px;}
+.ln_inputname{border: 1px solid #64ABE2!important;padding: 5px 14px!important;height: inherit!important;margin-bottom: 10px;width: 90%!important;background: white;}
+.ln_select{width: 73%;float: left;}
+.ln_keshi{border: 1px solid #64ABE2!important;padding: 5px 14px;height:33px;background: white;}
+.ln_tishi{margin-left: 5px;font-size: 12px;width: 75%;position: absolute;bottom: 0px;margin-bottom: 1px;}
+.ln_sebg{background: url(../img/my/select.png)no-repeat;width: 27px;height: 31px;background-size: cover;position: absolute;right: 1px;top: 2px;}
+.ln_renzh{margin-left: 25%;margin-top: -10px;}
+.ln_renzh a{width:52px;height:52px;margin-top:10px;border: 1px solid #4FA0DE;border-radius: 5px;margin-left: 10px;}
+
+
+
+
+
+
+@media only screen and (min-width:430px ) {
+	.ln_bwidth{width: 65%;}
+}
+
+
